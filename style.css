@@ -7,6 +7,26 @@ body {
 	font-family: 'Josefin Slab', serif;
 /*	font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Open Sans', sans-serif;*/
+	margin: 0;
+	background-color: #fefefe;
+}
+
+nav {
+	float: left;
+	position: fixed;
+    height: 100vh;
+    margin: 0;
+}
+ul {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 10px 10px 10px 30px;
+}
+li {
+    text-align: left;
+	list-style: none;
+    text-decoration: none;
 }
 
 .profile-pic {
@@ -22,6 +42,66 @@ body {
 p {
 	font-family: 'Open Sans', sans-serif;
 }
-.project {
-	
+
+.header1{
+	display: block;
+	margin: 0;
+	padding-top: 200px;
+	text-align: center;
+	font-size: 80px;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("img/paper.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("img/geo.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url("img/VH.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.about {
+padding: 30px 70px;
+background-color: rgba(#);
+}
+
+.projects{
+padding: 30px 70px;
+}
+
+.links{
+padding: 30px 70px;
 }
