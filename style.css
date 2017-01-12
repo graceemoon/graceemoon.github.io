@@ -44,6 +44,7 @@ a {
     color: #101010;
     font-weight: lighter;
     margin: 0;
+    padding: 0;
 }
 a:hover {
     color: #ffaaaa;
@@ -172,6 +173,24 @@ background-color: rgba(#);
 .projects{
 padding: 30px 150px;
 }
+
+.project {
+    border: 1px solid #aeaeae;
+    padding: 5px;
+    margin: 5px;
+}
+
+.proj {
+    padding: 0px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+/*.proj3 {
+    padding: 0px;
+    margin: 5px;
+    border: 1px solid white; 
+}*/
 
 .links{
 padding: 30px 150px;

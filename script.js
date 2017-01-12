@@ -10,16 +10,3 @@ navLink.addEventListener("click", function(){
 
 
 
-// susanna
-// $('#bubbleProjects').on('click', (event) => {
-//     $('body').animate({
-//       scrollTop: $('#bubbleProjects').offset().top -10
-//     }, 500);
-//     $('#modalProjects').css({'visibility': 'visible'});
-//     $('.bubble').css({
-//       width: '150px',
-//       height: '150px',
-//       fontSize: '20px',
-//       lineHeight: '100px',
-//     });
-//   });
