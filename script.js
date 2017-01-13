@@ -27,7 +27,14 @@ console.log("Grace Moon says Hi! :) DOM loaded");
 // 		toAbout();
 // });
 
-
+//TOP OF PAGE
+function toTop() {
+	window.scrollTo(0,0);
+}
+let navHome = document.querySelector('.home-butt');
+navHome.addEventListener("click", function() {
+	toTop();
+});
 
 //ABOUT PAGE
 function toAbout() {
@@ -48,15 +55,17 @@ function toProjects() {
 let navProjects = document.querySelector('.projects-butt');
 navProjects.addEventListener("click", function() {
 	toProjects();
-})
+});
 
-
-
-//TOP OF PAGE
-function toTop() {
-	window.scrollTo(0,0);
+//LINKS PAGE
+function toLinks() {
+	let links = document.querySelector('.links');
+	links.scrollIntoView();
 }
-let navHome = document.querySelector('.home-butt');
-navHome.addEventListener("click", function() {
-	toTop();
-})
+let navLinks = document.querySelector('.links-butt');
+navLinks.addEventListener("click", function() {
+	toLinks();
+});
+
+
+
