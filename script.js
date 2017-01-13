@@ -3,11 +3,11 @@
  //  });
 console.log("Grace Moon says Hi! :) DOM loaded");
 
-let navLink = document.querySelector('.links-butt');
-navLink.addEventListener("click", function(){
-			console.log("link button working");
-	    alert('ho ho ho');  
-});
+// let navLink = document.querySelector('.links-butt');
+// navLink.addEventListener("click", function(){
+// 			console.log("link button working");
+// 	    alert('ho ho ho');  
+// });
 
 // let navAbout = document.querySelector('.about-butt');
 // navAbout.addEventListener("click", function(){
@@ -16,11 +16,22 @@ navLink.addEventListener("click", function(){
 // 	    about.scrollIntoView();
 // });
 
+
+// function toHome() {
+// 	    let home = document.querySelector('.home');
+// 	    home.scrollIntoView();
+// }
+// let navHome = document.querySelector('.home-butt');
+// navAbout.addEventListener("click", function(){
+// 		console.log("about button before");
+// 		toAbout();
+// });
+
+
 function toAbout() {
 	    let about = document.querySelector('.about');
 	    about.scrollIntoView();
 }
-
 let navAbout = document.querySelector('.about-butt');
 navAbout.addEventListener("click", function(){
 		console.log("about button before");
