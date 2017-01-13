@@ -4,9 +4,12 @@ modal*/
 
 body {
 
-	/*font-family: 'Josefin Slab', serif;*/
-	font-family: 'Open Sans Condensed', sans-serif;
-	/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+font-family: 'Quicksand', sans-serif;
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
 	margin: 0;
 	background-color: #fefefe;
 }
@@ -27,16 +30,17 @@ ul {
     margin: 0;
     width: 100%;
     padding: 0;
+    text-align: left;
 }
 li {
     display: inline;
-    text-align: left;
+/*    text-align: center;*/
 	list-style: none;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 300;
     letter-spacing: 1px;
     line-height: 40px;
-    padding: 10px 20px 0px 0px;
+    padding: 10px;
     margin: 0;
 }
 /*a {
@@ -60,38 +64,27 @@ a:active {
     display: inline;
     cursor: pointer;
 }
+.navb:hover {
+    color: orange;
+}
 
 .hdr {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.profile-pic {
-	border: 5px solid black;
-	border-radius: 10px;
-}
-
-.aLink {
-	display: inline-block;
-	padding: 30px;
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-}
-
-.header1{
+/*.header1{
 	display: block;
 	margin: 0;
 	padding-top: 200px;
 	text-align: center;
 	font-size: 80px;
-}
+}*/
 
 .grace-header {
     padding-top: 50px;
     padding-bottom: 0;
     font-size: 300px;
-    font-weight: bold;
+    font-weight: 300;
     width: 100vh;
     height: 30vh;
     margin-left: 250px;
@@ -112,7 +105,7 @@ p {
 
 .moon-header {
     font-size: 300px;
-    font-weight: bold;
+    font-weight: 500;
     width: 100vh;
     height: 30vh;
     /*text-align: right;*/
@@ -172,6 +165,22 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.profile-pic {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.aLink {
+    display: inline-block;
+    padding: 30px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 
 .about {
