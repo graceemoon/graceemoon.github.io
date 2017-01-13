@@ -31,7 +31,7 @@ console.log("Grace Moon says Hi! :) DOM loaded");
 function toTop() {
 	window.scrollTo(0,0);
 }
-let navHome = document.querySelector('.home-butt');
+let navHome = document.querySelector('.home-button');
 navHome.addEventListener("click", function() {
 	toTop();
 });
@@ -41,7 +41,7 @@ function toAbout() {
 	    let about = document.querySelector('.about');
 	    about.scrollIntoView();
 }
-let navAbout = document.querySelector('.about-butt');
+let navAbout = document.querySelector('.about-button');
 navAbout.addEventListener("click", function(){
 		console.log("about button before");
 		toAbout();
@@ -52,7 +52,7 @@ function toProjects() {
 	let projects = document.querySelector('.projects');
 	projects.scrollIntoView();
 }
-let navProjects = document.querySelector('.projects-butt');
+let navProjects = document.querySelector('.projects-button');
 navProjects.addEventListener("click", function() {
 	toProjects();
 });
@@ -62,7 +62,7 @@ function toLinks() {
 	let links = document.querySelector('.links');
 	links.scrollIntoView();
 }
-let navLinks = document.querySelector('.links-butt');
+let navLinks = document.querySelector('.links-button');
 navLinks.addEventListener("click", function() {
 	toLinks();
 });
