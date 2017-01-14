@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	background-color: #FAFAFA;
 	animation: firstFade;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 }
 @keyframes firstFade {
 	0% {
