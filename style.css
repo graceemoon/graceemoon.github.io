@@ -12,7 +12,7 @@ nav {
 	height: 30px;
 	width: 100%;
 /*	background-color: rgba(255,255,255,0.5);*/
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,0.5);
 	/*background-color: black;*/
 	position: fixed;
 }
@@ -32,6 +32,7 @@ li {
 	display: inline;
 	color: black;
 	font-size: 14px;
+	font-weight: 300;
 }
 .navi:hover {
 	cursor: pointer;
@@ -40,37 +41,129 @@ li {
 
 h2 {
 	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-top: 35px;
+	padding-bottom: 2%;
 }
+
+
+/*HOME*/
+.home {
+	width: 100vw;
+	height: 100vh;
+	background-color: orange;
+}
+
+/*NAME HEADER*/
+.header {
+	display: block;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 30vh;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.grace-head {
+	padding-top: 30px;
+	font-weight: 300;
+    animation: totheleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes totheleft {
+    0%{
+        color: rgba(255,255,255,0.0);
+        margin-left: -1000px;
+        /*margin-right: -200px;*/
+    }
+    100%{
+        color: #101010; /*this will be the "black" color????*/
+        margin-left: 0px;
+    }
+}
+.moon-head {
+	font-weight: 600;
+	margin-top: -200px;
+	animation: flip;
+	animation-duration: 4s;
+	/*animation-delay: 1s;*/
+}
+@keyframes flip {
+	0%{
+		opacity: 0.0;
+	}
+    30%{
+    	opacity: 0.0;
+        /*color: rgba(255,255,255,0.0);*/
+        /*margin-left: -1000px;*/
+        /*margin-right: -200px;*/
+        /*transform: rotate3d(0,0,0,0);*/
+        transform: rotateY(-90deg);
+    }
+    100%{
+    	opacity: 1.0;
+/*        color: #101010;
+        margin-left: 0px;*/
+        transform: rotateY(0deg);
+    }
+}
+
 
 
 /*ABOUT PAGE*/
 .about {
 	width: 100%;
+	background-color: #b3f2f1;
 }
 .about-p {
 	padding: 5%;
+	padding-top: 2%;
+	margin: 0;
 }
 
 /*PROJECTS*/
 .projects {
 	width: 100%;
+	background-color: #f3b2f1;
 }
-.proj {
-	margin: 0 5%;
+.proj { /*holds img + p*/
+	margin: 0;
+	padding: 0;
+/*	padding-left: 5%;*/
+	padding-bottom: 5%;
+	text-align: center;
 }
-.proj-img {
+.proj-img { 
 	border: 1px solid black;
+	display: inline-block;
+    box-shadow: -2px 2px 5px #000000;
 }
+/*.proj-a { weird line bottom right of img??
+	margin: 0;
+	padding: 0;
+	width: 0;
+}*/
+
+.proj-p { /*project paragraph*/
+/*	display: block;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	float: left;
+*/}
 
 
 /*LINK PAGE*/
 .links {
 	width: 100%;
 	text-align: center;
+	background-color: #f3f2b1;
 }
-.aLink {
-	/*margin: 10px auto;*/
-
+/*.aLink {
+}*/
+.link-pic {
+	margin: 0px 20px 50px 20px;
 }
 
 

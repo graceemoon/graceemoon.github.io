@@ -1,7 +1,7 @@
  //  document.addEventListener("DOMContentLoaded", function(event) {
 	// console.log("DOM loaded");
  //  });
-console.log("Grace Moon says Hi! :) DOM loaded");
+console.log("Grace Moon says Hi! :) Please use Google Chrome~ DOM loaded");
 
 // let navLink = document.querySelector('.links-butt');
 // navLink.addEventListener("click", function(){
