@@ -67,5 +67,5 @@ navLinks.addEventListener("click", function() {
 	toLinks();
 });
 
-
+//FADE IN / OUT CSS PER PAGE
 

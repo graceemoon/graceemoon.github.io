@@ -4,6 +4,16 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
+	animation: firstFade;
+	animation-duration: 2s;
+}
+@keyframes firstFade {
+	0% {
+		opacity: 0.0;
+	}
+	100% {
+		opacity: 1.0;
+	}
 }
 
 nav {
@@ -65,16 +75,19 @@ h2 {
 	text-align: center;
 }
 .grace-head {
-	padding-top: 30px;
+	padding-top: 5%;
 	font-weight: 300;
     animation: totheleft;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
 }
 @keyframes totheleft {
-    0%{
+	0% {
         color: rgba(255,255,255,0.0);
         margin-left: -1000px;
+	}
+    50%{
+        color: rgba(255,255,255,0.0);
         /*margin-right: -200px;*/
     }
     100%{
@@ -84,7 +97,7 @@ h2 {
 }
 .moon-head {
 	font-weight: 600;
-	margin-top: -200px;
+	margin-top: -10%;
 	animation: flip;
 	animation-duration: 4s;
 	/*animation-delay: 1s;*/
@@ -93,7 +106,7 @@ h2 {
 	0%{
 		opacity: 0.0;
 	}
-    30%{
+    50%{
     	opacity: 0.0;
         /*color: rgba(255,255,255,0.0);*/
         /*margin-left: -1000px;*/
