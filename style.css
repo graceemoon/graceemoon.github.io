@@ -25,6 +25,22 @@ nav {
 	background-color: rgba(255,255,255,0.5);
 	/*background-color: black;*/
 	position: fixed;
+	animation: navDown;
+	animation-duration: 2s;
+}
+@keyframes navDown {
+	0% {
+		opacity: 0.0;
+		height: 0px;
+	}
+	50% {
+		opacity: 0.0;
+		height: 0px;
+	}
+	100% {
+		opacity: 1.0;
+		height: 30px;
+	}
 }
 ul {
 	margin: 0;
@@ -43,10 +59,45 @@ li {
 	color: black;
 	font-size: 14px;
 	font-weight: 300;
+	animation: naviWords;
+	animation-duration: 2s;
 }
 .navi:hover {
 	cursor: pointer;
 	color: orange;
+	animation: buttonFade;
+	animation-duration: 2s;
+}
+.home-button {
+	opacity: 1.0;
+	animation: buttonFade;
+	animation-duration: 2s;
+}
+.about-button {
+	opacity: 1.0;
+	animation: buttonFade;
+	animation-duration: 3s;
+}
+.projects-button {
+	opacity: 1.0;
+	animation: buttonFade;
+	animation-duration: 4s;
+}
+.links-button {
+	opacity: 1.0;
+	animation: buttonFade;
+	animation-duration: 4.7s;
+}
+@keyframes buttonFade {
+	0% {
+		opacity: 0.0;
+	}
+	30% {
+		opacity: 0.0;
+	}
+	100% {
+		opacity: 1.0;
+	}
 }
 
 h2 {
@@ -128,12 +179,26 @@ h2 {
 .about {
 	width: 100%;
 	background-color: #b3f2f1;
+	animation: aboutFade;
+	animation-duration: 2s;
 }
+@keyframes aboutFade {
+	0% {
+		opacity: 0.0;
+	}
+	100% {
+		opacity: 1.0;
+	}
+}
+
 .about-p {
 	padding: 5%;
 	padding-top: 2%;
 	margin: 0;
 }
+
+
+
 
 /*PROJECTS*/
 .projects {
