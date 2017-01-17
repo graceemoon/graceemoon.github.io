@@ -3,6 +3,7 @@
  //  });
 console.log("Grace Moon says Hi! :) Please use Google Chrome~ DOM loaded");
 
+"use strict";
 // let navLink = document.querySelector('.links-butt');
 // navLink.addEventListener("click", function(){
 // 			console.log("link button working");
@@ -26,6 +27,10 @@ console.log("Grace Moon says Hi! :) Please use Google Chrome~ DOM loaded");
 // 		console.log("about button before");
 // 		toAbout();
 // });
+
+let fadeInPage = document.querySelector('body').style.animation;
+
+
 
 //TOP OF PAGE
 function toTop() {

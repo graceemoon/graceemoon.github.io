@@ -5,7 +5,8 @@ body {
 	padding: 0;
 	background-color: #FAFAFA;
 	animation: firstFade;
-	animation-duration: 1.5s;
+	animation-duration: 1s;
+
 }
 @keyframes firstFade {
 	0% {
@@ -114,6 +115,11 @@ h2 {
 	width: 100vw;
 	height: 100vh;
 	background-color: orange;
+	background-image: url("./img/paper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*NAME HEADER*/
@@ -179,6 +185,16 @@ h2 {
 .about {
 	width: 100%;
 	background-color: #b3f2f1;
+	
+    background-image: url("img/geo.jpg");
+    /* Set a specific height */
+    min-height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 	animation: aboutFade;
 	animation-duration: 2s;
 }
