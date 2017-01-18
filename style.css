@@ -89,6 +89,12 @@ li {
 	animation: buttonFade;
 	animation-duration: 4.7s;
 }
+.mail-button {
+	padding-top: 20px;
+	opacity: 1.0;
+	animation: buttonFade;
+	animation-duration: 4.7s;
+}
 @keyframes buttonFade {
 	0% {
 		opacity: 0.0;
@@ -100,6 +106,14 @@ li {
 		opacity: 1.0;
 	}
 }
+/*.mail-img {
+	margin: 0;
+	padding: 0;
+}
+img {
+	margin: 0;
+	padding: 0;
+}*/
 
 h2 {
 	text-align: center;
@@ -185,7 +199,7 @@ h2 {
 .about {
 	width: 100%;
 	background-color: #b3f2f1;
-	
+
     background-image: url("img/geo.jpg");
     /* Set a specific height */
     min-height: 600px;
