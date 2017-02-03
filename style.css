@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	background-color: #FAFAFA;
 	animation: firstFade;
-	animation-duration: 1s;
+	animation-duration: 0.8s;
 
 }
 @keyframes firstFade {
@@ -20,7 +20,7 @@ body {
 nav {
 	margin: 0;
 	padding: 0;
-	height: 30px;
+	height: 50px;
 	width: 100%;
 /*	background-color: rgba(255,255,255,0.5);*/
 	background-color: rgba(255,255,255,0.5);
@@ -40,15 +40,16 @@ nav {
 	}
 	100% {
 		opacity: 1.0;
-		height: 30px;
+		height: 50px;
 	}
 }
-ul {
+nav ul {
 	margin: 0;
 	padding: 0;
-	padding-top: 3px;
+	padding-top: 8px;
+	list-style: none;
 }
-li {
+nav li {
 	margin: 0;
 	padding: 10px 10px 10px 10px;
 	display: inline;
@@ -56,23 +57,23 @@ li {
 .navi {
 	margin: 0;
 	padding: 5px;
-	display: inline;
+	display: inline-block;
 	color: black;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	animation: naviWords;
 	animation-duration: 2s;
 }
 .navi:hover {
 	cursor: pointer;
-	color: orange;
+	/*color: orange;*/
 	animation: buttonFade;
 	animation-duration: 2s;
 }
 .home-button {
 	opacity: 1.0;
 	animation: buttonFade;
-	animation-duration: 2s;
+	animation-duration: 2.5s;
 }
 .about-button {
 	opacity: 1.0;
@@ -82,24 +83,24 @@ li {
 .projects-button {
 	opacity: 1.0;
 	animation: buttonFade;
-	animation-duration: 4s;
+	animation-duration: 3.7s;
 }
 .links-button {
 	opacity: 1.0;
 	animation: buttonFade;
-	animation-duration: 4.7s;
+	animation-duration: 4.3s;
 }
-.mail-button {
+/*.mail-button {
 	padding-top: 20px;
 	opacity: 1.0;
 	animation: buttonFade;
 	animation-duration: 4.7s;
-}
+}*/
 @keyframes buttonFade {
 	0% {
 		opacity: 0.0;
 	}
-	30% {
+	50% {
 		opacity: 0.0;
 	}
 	100% {
@@ -233,33 +234,27 @@ h2 {
 /*PROJECTS*/
 .projects {
 	width: 100%;
-	background-color: #f3b2f1;
+	background-color: #eeeeee;
 }
-.proj { /*holds img + p*/
+.project-list {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
-/*	padding-left: 5%;*/
-	padding-bottom: 5%;
-	text-align: center;
 }
-.proj-img { 
-	border: 1px solid black;
-	display: inline-block;
-    box-shadow: -2px 2px 5px #000000;
+.proj {
+	display: inline;
+	padding: 5px;
+	margin: 0px;
+	margin-bottom: 50px;
 }
-/*.proj-a { weird line bottom right of img??
-	margin: 0;
-	padding: 0;
-	width: 0;
+/*.proj::after {
+	content: "hello";
 }*/
 
-.proj-p { /*project paragraph*/
-/*	display: block;
-	margin: 0;
-	padding: 10px;
-	text-align: center;
-	float: left;
-*/}
+
+
 
 
 /*LINK PAGE*/
