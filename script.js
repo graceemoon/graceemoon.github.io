@@ -1,45 +1,31 @@
- //  document.addEventListener("DOMContentLoaded", function(event) {
-	// console.log("DOM loaded");
- //  });
-console.log("Grace Moon says Hi! :) Please use Google Chrome~ DOM loaded");
+console.log("Grace Moon says Hi! :)");
 
 "use strict";
-// let navLink = document.querySelector('.links-butt');
-// navLink.addEventListener("click", function(){
-// 			console.log("link button working");
-// 	    alert('ho ho ho');  
+
+
+// $('#aboutme').click(function() {
+//  $('html, body').animate({
+//    scrollTop: $('#aboutmediv').offset().top
+//  }, 680);
 // });
 
-// let navAbout = document.querySelector('.about-butt');
-// navAbout.addEventListener("click", function(){
-// 			console.log("about button before");
-// 	    let about = document.querySelector('.about');
-// 	    about.scrollIntoView();
-// });
+$('.home-button').click(function() {
+	$('html, body').animate({
+		scrollTop: $('.home').offset().top}, 700);
+	});
 
 
-// function toHome() {
-// 	    let home = document.querySelector('.home');
-// 	    home.scrollIntoView();
-// }
-// let navHome = document.querySelector('.home-butt');
-// navAbout.addEventListener("click", function(){
-// 		console.log("about button before");
-// 		toAbout();
-// });
-
-let fadeInPage = document.querySelector('body').style.animation;
 
 
 
 //TOP OF PAGE
-function toTop() {
-	window.scrollTo(0,0);
-}
-let navHome = document.querySelector('.home-button');
-navHome.addEventListener("click", function() {
-	toTop();
-});
+// function toTop() {
+// 	window.scrollTo(0,0);
+// }
+// let navHome = document.querySelector('.home-button');
+// navHome.addEventListener("click", function() {
+// 	toTop();
+// });
 
 //ABOUT PAGE
 function toAbout() {
@@ -72,5 +58,9 @@ navLinks.addEventListener("click", function() {
 	toLinks();
 });
 
-//FADE IN / OUT CSS PER PAGE
+
+
+
+
+
 
