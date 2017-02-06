@@ -29,6 +29,7 @@ nav {
 	animation: navDown;
 	animation-duration: .5s;
 	z-index: 1;
+	box-shadow: 0px 5px 10px rgba(120,120,120,.2);
 }
 @keyframes navDown {
 	0% {
@@ -86,7 +87,7 @@ nav li {
 	animation: buttonFade;
 	animation-duration: 1.5s;
 }
-.links-button {
+.contact-button {
 	opacity: 1.0;
 	animation: buttonFade;
 	animation-duration: 1.9s;
@@ -121,7 +122,7 @@ h2 {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	padding-top: 50px;
+	padding-top: 70px;
 	padding-bottom: 2%;
 }
 
@@ -214,7 +215,7 @@ h2 {
 .about {
 	width: 100%;
 	height: 70vh;
-	background-color: #FAFAFA;
+	background-color: #FEFEFE;
 	animation: aboutFade;
 	animation-duration: 2s;
 }
@@ -233,6 +234,7 @@ h2 {
 	margin: 0;
 }
 
+/*img b/w about and proj*/
 .afterabout {
     background-image: url("../img/geo.jpg");
     /* Set a specific height */
@@ -262,10 +264,35 @@ h2 {
 	padding: 0;
 }
 .proj {
-	display: inline;
-	padding: 5px;
-	/*margin-bottom: 50px;*/
+	display: flex;
+	justify-content: center;
+	position: relative;
+	border: 1px solid #ccc;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
 }
+.proj img {
+	transition: all 1s ease;
+}
+
+.proj img:hover {
+	transform: scale(1.1);
+
+}
+/*@keyframes imghover {
+	0% {
+		opacity: 1.0;
+		background-color: none;
+	}
+	100% {
+		opacity: 0.5;
+		background-color: rgba(0,0,0,1.0);
+	}
+}
+*/
+
+
 /*.proj::after {
 	content: "hello";
 }*/
@@ -274,8 +301,8 @@ h2 {
 
 
 
-/*LINK PAGE*/
-.links {
+/*CONTACTS PAGE*/
+.contact {
 	width: 100%;
 	height: 100vh;
 	text-align: center;
@@ -292,7 +319,7 @@ h2 {
 
 footer {
 	text-align: center;
-	font-size: 12px;
+	/*font-size: 12px;*/
 	padding: 5px;
 	background-color: black;
 	color: white;

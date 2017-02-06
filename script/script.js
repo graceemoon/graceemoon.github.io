@@ -6,27 +6,27 @@ console.log("Grace Moon says Hi! :)");
 $('.home-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.home').offset().top
-	}, 700);
+	}, 670);
 });
 
 //to about
 $('.about-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.about').offset().top
-	}, 700);
+	}, 670);
 });
 
 //to projects
 $('.projects-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.projects').offset().top
-	}, 700);
+	}, 670);
 });
 
-$('.links-button').click(function() {
+$('.contact-button').click(function() {
 	$('html, body').animate({
-		scrollTop: $('.links').offset().top
-	}, 700);
+		scrollTop: $('.contact').offset().top
+	}, 670);
 });
 
 
