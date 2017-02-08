@@ -263,9 +263,10 @@ h2 {
 	margin: 0;
 	padding: 0;
 }
-.proj {
+.project-list li {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	margin: 10px;
 	position: relative;
 	border: 1px solid #ccc;
 	width: 300px;
@@ -305,13 +306,14 @@ h2 {
 .contact {
 	width: 100%;
 	height: 100vh;
-	text-align: center;
+	padding-top: 0px;
 	background-color: #FAFAFA;
+	text-align: center;
 }
 /*.aLink {
 }*/
 .link-pic {
-	margin: 0px 20px 50px 20px;
+	margin: 20px 20px 50px 20px;
 }
 
 
