@@ -7,7 +7,7 @@ $('.home-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.home').offset().top
 	}, 670);
-	$(".home-button").css("color", "#777777");
+	$(".home-button").css("color", "#ffaa33");
 	$(".about-button").css("color", "#101010");
 	$(".projects-button").css("color", "#101010");
 	$(".contact-button").css("color", "#101010");
@@ -21,7 +21,7 @@ $('.about-button').click(function() {
 		scrollTop: $('.about').offset().top
 	}, 670);
 	$(".home-button").css("color", "#101010");
-	$(".about-button").css("color", "#777777");
+	$(".about-button").css("color", "#ffaa33");
 	$(".projects-button").css("color", "#101010");
 	$(".contact-button").css("color", "#101010");
 });
@@ -33,7 +33,7 @@ $('.projects-button').click(function() {
 	}, 670);
 	$(".home-button").css("color", "#101010");
 	$(".about-button").css("color", "#101010");
-	$(".projects-button").css("color", "#777777");
+	$(".projects-button").css("color", "#ffaa33");
 	$(".contact-button").css("color", "#101010");
 });
 
@@ -44,7 +44,7 @@ $('.contact-button').click(function() {
 	$(".home-button").css("color", "#101010");
 	$(".about-button").css("color", "#101010");
 	$(".projects-button").css("color", "#101010");
-	$(".contact-button").css("color", "#777777");
+	$(".contact-button").css("color", "#ffaa33");
 });
 
 
