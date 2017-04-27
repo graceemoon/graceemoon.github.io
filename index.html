@@ -63,27 +63,20 @@
 
 	<div class="contact">
 		<h2>Contact</h2>
-		<a class="aLink" href="https://www.linkedin.com/in/grace-moon"><img class="link-pic lin-button" src="./img/linkedin.png" width="80px"></a>
-		<a class="aLink" href="https://github.com/graceemoon"><img class="link-pic git-button" src="./img/git.png" width="80px"></a>
+		<a class="aLink" href="https://www.linkedin.com/in/grace-moon"><img class="link-pic lin-button" src="./img/linkedin.png" width="40px"></a>
+		<a class="aLink" href="https://github.com/graceemoon"><img class="link-pic git-button" src="./img/git.png" width="40px"></a>
 
-  <section class="contact-sect">
-    <form id="contact" action="" method="post">
-       <div class="left">
-        <input type="text" name="name" placeholder="Name"><br>
-        <input type="text" name="email" placeholder="Email"><br>
-      </div>
-      <div class="right">
-        <textarea rows="5" name="message" cols="30" placeholder="Message"></textarea><br>
-      </div>
-      <div class="send">
-        <button type="submit" name="submit" value="Submit">Submit</button>
-      </div>
-    </form></section>
+	<form  action="" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="action" value="submit">
+    Name:<br>
+    <input name="name" type="text" value="" size="50"/><br>
+    E-Mail:<br>
+    <input name="email" type="text" value="" size="50"/><br>
+    Message:<br>
+    <textarea name="message" rows="10" cols="50"></textarea><br>
+    <input type="submit" value="Send email"/>
+    </form>
 
-		<div class="contactmail">
-		<p>Contact me via <a href="hi.gracemoon@gmail.com">e-mail</a>.</p>
-		</div>
-		<br/>
 	</div>
 
 
