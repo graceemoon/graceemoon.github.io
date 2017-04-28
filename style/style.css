@@ -263,7 +263,6 @@ h2 {
 
 .proj img:hover {
 	transform: scale(1.1);
-	
 }
 /*@keyframes imghover {
 	0% {
@@ -278,13 +277,13 @@ h2 {
 */
 
 
-.proj span {
+/*.proj span {
 	display: inline-block;
 	position: absolute;
 	padding: 20px;
 	color: #fafafa;
 	margin-top: 90px;
-}
+}*/
 /*.proj-p:hover {
 	display: inline-block;
 	position: absolute;
@@ -293,6 +292,24 @@ h2 {
 }
 */
 
+
+
+.proj-a {
+  position: relative
+}
+
+.proj-a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+}
+
+.proj-a:hover span {
+  display: block
+}
 
 
 
@@ -310,6 +327,8 @@ h2 {
 .link-pic {
 	margin: 20px 20px 50px 20px;
 }
+
+
 
 
 
