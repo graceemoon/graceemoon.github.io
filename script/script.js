@@ -48,6 +48,20 @@ $('.contact-button').click(function() {
 });
 
 
+// // for mouse over text hover effect on projects
+// $('.proj-img').mouseover(function() {
+//   $('.proj-p').css("visibility","visible");
+// });
+
+// $('.proj-img').mouseout(function() {
+//   $('.proj-p').css("visibility","hidden");
+// });
+
+
+
+
+
+
 // //TOP OF PAGE
 // function toTop() {
 // 	window.scrollTo(0,0);
