@@ -57,6 +57,7 @@ nav li {
 	margin: 0;
 	padding: 10px 40px;
 	display: inline-block;
+	letter-spacing: 3px;
 	cursor: pointer;
 }
 .navi {
