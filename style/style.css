@@ -1,46 +1,58 @@
  body {
-	/*font-family: 'Nunito Sans', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
-	animation: firstFade;
-	animation-duration: 0.8s;
+/*	animation: firstFade;
+	animation-duration: 0.8s;*/
+	background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);
+	background-size: 600% 600%;
 
-
-background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);
-background-size: 600% 600%;
-
--webkit-animation: AnimationName 14s ease infinite;
--moz-animation: AnimationName 14s ease infinite;
-animation: AnimationName 14s ease infinite;
+	-webkit-animation: AnimationName 14s ease infinite;
+	-moz-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
 }
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+    	background-position:0% 51%
+    }
+    50% {
+    	background-position:100% 50%
+    }
+    100% {
+    	background-position:0% 51%
+    }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+    	background-position:0% 51%
+    }
+    50% {
+    	background-position:100% 50%
+    }
+    100% {
+    	background-position:0% 51%
+    }
 }
 @keyframes AnimationName { 
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+    	background-position:0% 51%
+    }
+    50% {
+    	background-position:100% 50%
+    }
+    100% {
+    	background-position:0% 51%
+    }
 }
-
-
-
-@keyframes firstFade {
+/*@keyframes firstFade {
 	0% {
 		opacity: 0.0;
 	}
 	100% {
 		opacity: 1.0;
 	}
-}
+}*/
 
 nav {
 	margin: 0 auto;
@@ -209,7 +221,7 @@ font-family: 'Quicksand', sans-serif;
 /*ABOUT PAGE*/
 .about {
 	width: 100%;
-	height: 70vh;
+	height: 90vh;
 	background-color: #FEFEFE;
 	animation: aboutFade;
 	animation-duration: 2s;
@@ -231,14 +243,14 @@ font-family: 'Quicksand', sans-serif;
 
 /*img b/w about and proj*/
 .afterabout {
-    background-image: url("../img/geo.jpg");
+/*    background-image: url("../img/geo.jpg");*/
     /* Set a specific height */
-    min-height: 30vh;
+    min-height: 10vh;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+/*    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 
@@ -275,35 +287,6 @@ font-family: 'Quicksand', sans-serif;
 .proj img:hover {
 	transform: scale(1.1);
 }
-/*@keyframes imghover {
-	0% {
-		opacity: 1.0;
-		background-color: none;
-	}
-	100% {
-		opacity: 0.5;
-		background-color: rgba(0,0,0,1.0);
-	}
-}
-*/
-
-
-/*.proj span {
-	display: inline-block;
-	position: absolute;
-	padding: 20px;
-	color: #fafafa;
-	margin-top: 90px;
-}*/
-/*.proj-p:hover {
-	display: inline-block;
-	position: absolute;
-	padding: 10px;
-	color: black;
-}
-*/
-
-
 
 .proj-a {
   position: relative
@@ -322,12 +305,15 @@ font-family: 'Quicksand', sans-serif;
   display: block
 }
 
+.afterprojects {
+    min-height: 10vh;
+}
 
 
 /*CONTACTS PAGE*/
 .contact {
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	padding-top: 0px;
 	background-color: #FAFAFA;
 	text-align: center;
@@ -338,9 +324,9 @@ font-family: 'Quicksand', sans-serif;
 .link-pic {
 	margin: 20px 20px 50px 20px;
 }
-
-
-
+.aftercontact {
+    min-height: 10vh;
+}
 
 
 
