@@ -358,7 +358,9 @@ font-family: 'Quicksand', sans-serif;
     min-height: 10vh;
 }
 
-
+button {
+	cursor: pointer;
+}
 
 
 
