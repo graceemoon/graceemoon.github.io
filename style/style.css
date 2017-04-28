@@ -7,7 +7,32 @@
 	animation: firstFade;
 	animation-duration: 0.8s;
 
+
+background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 14s ease infinite;
+-moz-animation: AnimationName 14s ease infinite;
+animation: AnimationName 14s ease infinite;
 }
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+
+
 @keyframes firstFade {
 	0% {
 		opacity: 0.0;
@@ -113,18 +138,18 @@ h2 {
 .home {
 	width: 100vw;
 	height: 100vh;
-	background-color: #101010;
+/*	background-color: #101010;
 	background-image: url("../img/desk-interior-arrangement-13.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+*/}
 
 /*NAME HEADER*/
 .header {
 	display: block;
-	font-family: 'Nunito Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
 /*	font-size: 30vh;*/
 	font-size: 15vh;
 	margin: 0;
@@ -132,12 +157,11 @@ h2 {
 	text-align: center;
 }
 .grace-head {
-	padding-top: 5%;
+	padding-top: 30vh;
 	font-weight: 200;
     animation: totheright;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-/*    color:     #101010;*/
 	color: #fafafa;
 }
 @keyframes totheright {
@@ -156,29 +180,16 @@ h2 {
 }
 .moon-head {
 	font-weight: 400;
-	margin-top: -5%;
+	margin-top: -3%;
 	/*animation: flip;*/
 	animation: totheleft;
-	animation-duration: 1.7s;
+	animation-duration: 1.5s;
 	animation-timing-function: ease-in-out;
 	/*animation-delay: 1s;*/
         color: #fafafa;
 	/*text-shadow: 5px 5px #101010;*/
 }
-/*@keyframes flip {
-	0%{
-		opacity: 0.0;
-	}
-    50%{
-    	opacity: 0.0;
-        transform: rotateY(-90deg);
-    }
-    100%{
-    	opacity: 1.0;
-        transform: rotateY(0deg);
-    }
-}
-*/
+
 @keyframes totheleft {
 	0% {
         color: rgba(255,255,255,0.0);
