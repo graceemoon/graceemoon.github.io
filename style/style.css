@@ -295,16 +295,19 @@ font-family: 'Quicksand', sans-serif;
 .proj-a span {
   display: none;
   position: absolute;
-  bottom: 0;
+  /*bottom: 0;*/
+  top: 0;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   background: rgba(255,255,255,.8);
 }
 
 .proj-a:hover span {
-  display: block
+  display: block;
 }
 
+
+/*to show strip of gradient*/
 .afterprojects {
     min-height: 10vh;
 }
