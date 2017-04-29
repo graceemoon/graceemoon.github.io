@@ -113,6 +113,16 @@ nav li:hover {
 }
 /*.navi {
 }*/
+.toplogo {
+	padding:0;
+	margin: 0;
+	animation: rotation 20s linear infinite;
+}
+@keyframes rotation {
+	0% {transform: rotate(0deg);}
+	/*50% {transform: rotate(180deg);}*/
+	100% {transform: rotate(360deg);}
+}
 
 .home-button {
 	margin:0;
@@ -346,7 +356,7 @@ h2 {
 .afterabout {
 /*    background-image: url("../img/geo.jpg");*/
     /* Set a specific height */
-    min-height: 5vh;
+    min-height: 10vh;
     /* Create the parallax scrolling effect */
 /*    background-attachment: fixed;
     background-position: center;
@@ -437,7 +447,7 @@ h2 {
 
 /*to show strip of gradient*/
 .afterprojects {
-    min-height: 5vh;
+    min-height: 10vh;
 }
 
 
@@ -475,7 +485,7 @@ h2 {
 
 
 .aftercontact {
-    min-height: 5vh;
+    min-height: 10vh;
 }
 
 form {
