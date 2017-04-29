@@ -6,7 +6,7 @@ console.log("Grace Moon says Hi! :)");
 $('.home-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.home').offset().top
-	}, 670);
+	}, 400);
 	$(".home-button").css("color", "#ffaa33");
 	$(".about-button").css("color", "#101010");
 	$(".projects-button").css("color", "#101010");
@@ -19,7 +19,7 @@ $('.home-button').click(function() {
 $('.about-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.about').offset().top
-	}, 670);
+	}, 400);
 	$(".home-button").css("color", "#101010");
 	$(".about-button").css("color", "#ffaa33");
 	$(".projects-button").css("color", "#101010");
@@ -30,7 +30,7 @@ $('.about-button').click(function() {
 $('.projects-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.projects').offset().top
-	}, 670);
+	}, 400);
 	$(".home-button").css("color", "#101010");
 	$(".about-button").css("color", "#101010");
 	$(".projects-button").css("color", "#ffaa33");
@@ -40,7 +40,7 @@ $('.projects-button').click(function() {
 $('.contact-button').click(function() {
 	$('html, body').animate({
 		scrollTop: $('.contact').offset().top
-	}, 670);
+	}, 400);
 	$(".home-button").css("color", "#101010");
 	$(".about-button").css("color", "#101010");
 	$(".projects-button").css("color", "#101010");
