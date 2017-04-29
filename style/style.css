@@ -371,6 +371,23 @@ font-family: 'Quicksand', sans-serif;
 .link-pic {
 	margin: 20px;
 }
+.link-pic:hover {
+	transform-origin: 50% 50%;
+	animation: shake 1s ease-in-out;
+}
+@keyframes shake {
+	0% {transform: rotate(0deg);}
+	20% {transform: rotate(-35deg);}
+	40% {transform: rotate(35deg);}
+	60% {transform: rotate(-25deg);}
+	70% {transform: rotate(25deg);}
+	80% {transform: rotate(-10deg);}
+	90% {transform: rotate(10deg);}
+	100% {transform: rotate(0deg);}
+}
+
+
+
 .aftercontact {
     min-height: 5vh;
 }
