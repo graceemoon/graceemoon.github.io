@@ -4,7 +4,7 @@ console.log("Grace Moon says Hi! :)");
 
 // typeIt jquery for home
 $('#typewrite').typeIt({
-     strings: ["front end web dev", "web design", "illustrate", "origami", "eat ice cream"],
+     strings: ["front end web dev", "web design", "draw children's books", "make origami animals", "eat ice cream"],
      startDelay: 4500,
      speed: 70,
      cursor: true,

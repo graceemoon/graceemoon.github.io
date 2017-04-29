@@ -155,7 +155,7 @@ nav li:hover {
 	padding: 0;
 	display: block;
 	text-align: center;
-	margin-top: 30vh;
+	padding-top: 30vh;
 	opacity: 0;
 	animation: begin .5s;
 	animation-fill-mode: forwards;
