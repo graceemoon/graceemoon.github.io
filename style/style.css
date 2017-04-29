@@ -420,8 +420,8 @@ button {
 	margin: 10px;
 	font-size: 14px;
 	letter-spacing: 2px;
-	border: 1px solid #aaaaaa;
-	transition: .5s ease;
+	border: 1px solid transparent;
+	transition: .5s ease-in-out;
 }
 button:hover {
 	background: transparent;
