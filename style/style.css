@@ -150,38 +150,60 @@ nav li:hover {
 	}
 }
 
+
+
 .beginning {
+	font-size: 20px; 
+	color: #1a1a1a;
 	margin: 0;
 	padding: 0;
 	display: block;
 	text-align: center;
 	padding-top: 30vh;
+/*	opacity: 0;*/
+/*	animation: mynameis .5s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;*/
+}
+/*@keyframes mynameis {
+	0% {opacity: 0;}
+	100% {opacity: 1;
+		color: #2a2a2a;}
+}*/
+.beginning span:first-child {
 	opacity: 0;
-	animation: begin .5s;
+	animation: hellospan .5s;
 	animation-fill-mode: forwards;
 	animation-delay: .9s;
 }
-@keyframes begin {
-0% {opacity: 0;
-	margin-left: 200px;}
-100% {opacity: 1;
-	margin-left: 0px;
-	color: #2a2a2a;}
-}
-.beginning span {
+.beginning span:nth-child(2) {
 	opacity: 0;
-	animation: bspan .5s;
+	animation: hellospan .5s;
 	animation-fill-mode: forwards;
-	animation-delay: 1.5s;
+	animation-delay: 1.15s;
 }
-@keyframes bspan {
-0% {opacity: 0;}
-100% {opacity: 1;
-	color: #2a2a2a;}
+@keyframes hellospan {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
+.beginning span:nth-child(3) {
+	/*position: relative;*/
+	opacity: 0;
+	animation: mynameisspan .8s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.6s;
+}
+@keyframes mynameisspan {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+
 
 
 .cando {
+	font-size: 20px; 
 	margin-top: -2vh;
 	display: block;
 	text-align: center;
@@ -249,7 +271,7 @@ h2 {
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-	animation-delay: 1.2s;
+	animation-delay: 1.3s;
 
 	color: #fafafa;
 }
@@ -276,7 +298,7 @@ h2 {
 	animation-duration: 1.5s;
 	animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-	animation-delay: 1.3s;
+	animation-delay: 1.4s;
         color: #fafafa;
 	/*text-shadow: 5px 5px #101010;*/
 }

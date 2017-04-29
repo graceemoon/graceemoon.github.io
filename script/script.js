@@ -2,9 +2,9 @@ console.log("Grace Moon says Hi! :)");
 
 "use strict";
 
-// typeIt jquery for home
+//// typeIt jquery for home
 $('#typewrite').typeIt({
-     strings: ["front end web dev", "web design", "draw children's books", "make origami animals", "eat ice cream"],
+     strings: ["front end web development", "web design", "children's book illustration", "drawing cartoons", "nature walks", "netflix", "eating ice cream"],
      startDelay: 4500,
      speed: 70,
      cursor: true,
@@ -15,7 +15,6 @@ $('#typewrite').typeIt({
      // breakDelay: 100,     
      lifeLike: true,
      loop: true,
-
 });
 
 
