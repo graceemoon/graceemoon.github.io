@@ -142,8 +142,15 @@ h2 {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	padding-top: 70px;
+	padding-top: 100px;
 	padding-bottom: 2%;
+	font-size: 70px;
+	letter-spacing: 2px;
+	font-weight: 800;
+	/*-webkit-text-fill-color: transparent;*/
+  	/*-webkit-background-clip: text;*/
+  	/*background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);*/
+  	color: blue;
 }
 
 /*HOME*/
