@@ -2,6 +2,24 @@ console.log("Grace Moon says Hi! :)");
 
 "use strict";
 
+// typeIt jquery for home
+$('#typewrite').typeIt({
+     strings: ["front end web dev", "web design", "illustrate", "origami", "eat ice cream"],
+     startDelay: 4500,
+     speed: 70,
+     cursor: true,
+     cursorSpeed: 700,
+     breakLines: false,
+     autoStart: false,
+     deleteDelay: 2000,
+     // breakDelay: 100,     
+     lifeLike: true,
+     loop: true,
+
+});
+
+
+
 //to home jQuery
 $('.home-button').click(function() {
 	$('html, body').animate({
@@ -12,8 +30,6 @@ $('.home-button').click(function() {
 	$(".projects-button").css("color", "#101010");
 	$(".contact-button").css("color", "#101010");
 }); 
-
-
 
 //to about
 $('.about-button').click(function() {

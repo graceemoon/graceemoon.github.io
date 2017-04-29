@@ -150,6 +150,55 @@ nav li:hover {
 	}
 }
 
+.beginning {
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	margin-top: 30vh;
+	opacity: 0;
+	animation: begin .5s;
+	animation-fill-mode: forwards;
+	animation-delay: .9s;
+}
+@keyframes begin {
+0% {opacity: 0;
+	margin-left: 200px;}
+100% {opacity: 1;
+	margin-left: 0px;
+	color: #2a2a2a;}
+}
+.beginning span {
+	opacity: 0;
+	animation: bspan .5s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+}
+@keyframes bspan {
+0% {opacity: 0;}
+100% {opacity: 1;
+	color: #2a2a2a;}
+}
+
+
+.cando {
+	margin-top: -2vh;
+	display: block;
+	text-align: center;
+	opacity: 0;
+	animation: hometype 2s ease;
+	animation-fill-mode: forwards;
+	animation-delay: 2.2s;
+}
+#typewrite {
+}
+@keyframes hometype {
+	0% {opacity: 0;}
+	50% {opacity: 0}
+	100% {opacity: 1;}
+}
+
+
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -184,7 +233,7 @@ h2 {
 /*NAME HEADER*/
 .header {
 	display: block;
-font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 /*	font-size: 30vh;*/
 	font-size: 15vh;
 	margin: 0;
@@ -192,15 +241,20 @@ font-family: 'Quicksand', sans-serif;
 	text-align: center;
 }
 .grace-head {
-	padding-top: 30vh;
+	/*margin-top: 30vh;*/
+	margin-top: -5vh;
 	font-weight: 200;
+	opacity: 0;
     animation: totheright;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-delay: 1.2s;
+
 	color: #fafafa;
 }
 @keyframes totheright {
-	0% {
+	0% {opacity: 0;
         color: rgba(255,255,255,0.0);
         margin-left: -1000px;
 	}
@@ -208,7 +262,7 @@ font-family: 'Quicksand', sans-serif;
         color: rgba(255,255,255,0.0);
         /*margin-right: -200px;*/
     }
-    100%{
+    100%{opacity: 1;
         color: #fafafa; /*this will be the "black" color????*/
         margin-left: 0px;
     }
@@ -217,16 +271,18 @@ font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	margin-top: -3%;
 	/*animation: flip;*/
+	opacity: 0;
 	animation: totheleft;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-in-out;
-	/*animation-delay: 1s;*/
+    animation-fill-mode: forwards;
+	animation-delay: 1.3s;
         color: #fafafa;
 	/*text-shadow: 5px 5px #101010;*/
 }
 
 @keyframes totheleft {
-	0% {
+	0% {opacity: 0;
         color: rgba(255,255,255,0.0);
         margin-left: 1000px;
 	}
@@ -234,7 +290,7 @@ font-family: 'Quicksand', sans-serif;
         color: rgba(255,255,255,0.0);
         /*margin-right: -200px;*/
     }
-    100%{
+    100%{opacity: 1;
         color: #fafafa;
         margin-left: 0px;
     }
