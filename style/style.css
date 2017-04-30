@@ -498,7 +498,7 @@ h2 {
 	padding: 10px;*/
 }
 .mailme:hover {
-	/*text-decoration: */
+	text-decoration: none; /*remove*/
 	color: #ff7733;
 }
 
