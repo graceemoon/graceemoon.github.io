@@ -7,6 +7,7 @@
 	animation-duration: 0.8s;*/
 	background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);
 	background-size: 600% 600%;
+	overflow-x: hidden;
 
 /*background: linear-gradient(128deg, #fb4e89, #f9ff00);
 	background-size: 400% 400%;*/
@@ -384,8 +385,8 @@ h2 {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-.project-list li {
+} 
+.proj {
 	display: flex;
 	justify-content: space-around;
 	margin: 10px;
