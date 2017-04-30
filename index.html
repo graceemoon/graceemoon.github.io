@@ -29,12 +29,12 @@
 		<p class="beginning"><span class="hello"><b>Hello</b>,</span><span class="there"> there! </span><span class="mynameis">My name is</span></p>
 		<div class="header grace-head">grace</div>
 		<div class="header moon-head">moon</div>
-		<p class="cando">and I like . . . <br><span id="typewrite"></span></p>
+		<p class="cando">and I like<br><span id="typewrite"></span></p>
 	</div>
 
 	<div class="about">
 		<h2>ABOUT</h2>
-		<p class="about-p">Born and raised in New York, graduated from Parsons the New School for Design. Learned to appreciate code in college and took it a step further recently by attending General Assembly's Web Development Immersive. I like making aesthetically pleasing and functional websites. Look forward to chatting with you :)</p>
+		<p class="about-p">Born and raised in Queens, New York, graduated from Parsons the New School for Design with a BFA in Illustration. Learned to appreciate code in college and took it a step further by attending General Assembly's Web Development Immersive. I like making aesthetically pleasing and user-friendly websites. Look forward to chatting with you :)</p>
 	</div>
 	<div class= "afterabout">
 	</div>
@@ -85,7 +85,7 @@
 
 
 <!-- *~*~*~*~*F O R M*~*~*~*~* -->
-	<form  action="" method="POST" enctype="multipart/form-data">
+<!-- 	<form  action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="action" value="submit">
     NAME:<br>
     <input name="name" type="text" value="" size="50"/><br>
@@ -94,7 +94,16 @@
     MESSAGE:<br>
     <textarea name="message" rows="10" cols="50"></textarea><br>
 	<button type="submit" class="submit-button">SUBMIT</button>
-    </form>
+    </form> -->
+
+<!-- using formspree for contact form~ -->
+<form method="POST" action="http://formspree.io/hi.gracemoon@gmail.com">
+<input name="name" type="text" value="" placeholder="YOUR NAME HERE" size="50"/><br>
+<input type="email" name="email" placeholder="YOUR EMAIL HERE" size="50"><br>
+<textarea name="message" placeholder="YOUR MESSAGE HERE" rows="10" cols="50"></textarea><br>
+  <button type="submit" class="submit-button">SEND</button>
+</form>
+
 
 
 	</div>

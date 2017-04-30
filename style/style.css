@@ -513,20 +513,23 @@ form {
 	margin: 10px;
 }
 input {
-	font-size: 14px;
+	font-size: 12px;
+	letter-spacing: 1px;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 10px;
 	margin: 10px;
 	border: 1px solid #aaaaaa;
 }
 textarea {
-	font-size: 14px;
+	font-size: 12px;
+	letter-spacing: 1px;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 10px;
 	margin: 10px;
 	border: 1px solid #aaaaaa;
 }
 button {
+	font-family: 'Quicksand', sans-serif;
 	cursor: pointer;
 	border-style: none;
 	background-color: #ffaa33;
@@ -537,11 +540,14 @@ button {
 	letter-spacing: 2px;
 	border: 1px solid transparent;
 	transition: .5s ease-in-out;
-	color: #2a2a2a;
+	color: #fafafa;
 }
 button:hover {
 	background: transparent;
 	border: 1px solid #aaaaaa;
+	color: #ffaa33;
+	padding: 10px 15px;
+	letter-spacing: 4px;
 	/*animation:btnpress 2s ease-in-out;*/
 }
 /*@keyframes btnpress {
