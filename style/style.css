@@ -440,13 +440,15 @@ h2 {
 
 /*img zooms in when hovered*/
 /*doesnt work with span on top width + height 100% boo*/
-.proj img {
+/*.proj img {
 	transition: all 1s ease;
 }
 
 .proj img:hover {
 	transform: scale(1.1);
 }
+*/
+
 
 
 
