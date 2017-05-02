@@ -8,12 +8,6 @@
 	background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);
 	background-size: 600% 600%;
 	overflow-x: hidden;
-
-/*background: linear-gradient(128deg, #fb4e89, #f9ff00);
-	background-size: 400% 400%;*/
-/*background: linear-gradient(128deg, #ff3e3e, #ff953e, #fff23e, #8cff3e, #3ee4ff, #3e75ff, #a93eff, #ff3e3e);
-background-size: 1600% 1600%;*/
-
 	-webkit-animation: bggrad 20s ease infinite;
 	-moz-animation: bggrad 20s ease infinite;
 	animation: bggrad 20s ease infinite;
@@ -66,9 +60,7 @@ nav {
 	padding: 0 auto;
 	height: 50px;
 	width: 100%;
-/*	background-color: rgba(255,255,255,0.5);*/
 	background-color: rgba(255,255,255,0.8);
-	/*background-color: black;*/
 	position: fixed;
 	animation: navDown;
 	animation-duration: 1s;
@@ -117,13 +109,12 @@ nav li:hover {
 .toplogo {
 	padding:0;
 	margin: 0;
-	animation: rotation 20s linear infinite;
+	/*animation: rotation 20s linear infinite;*/
 }
-@keyframes rotation {
+/*@keyframes rotation {
 	0% {transform: rotate(0deg);}
-	/*50% {transform: rotate(180deg);}*/
 	100% {transform: rotate(360deg);}
-}
+}*/
 
 .home-button {
 	margin:0;
@@ -569,6 +560,23 @@ footer {
 	color: white;
 }
 
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+nav {}
+
+
+
+}
+
+
+/*Tablet*/
+@media only screen and (min-device-width : 768px) {
+nav {}
+
+
+
+}
 
 
 
