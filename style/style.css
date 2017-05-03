@@ -570,7 +570,12 @@ footer {
 
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {*/
+@media (min-width: 320px) and (max-width: 640px) {
+	body {
+		font-size: 2em;
+	}
+
 	nav {
 		display: none;
 	}
@@ -585,21 +590,34 @@ footer {
 		z-index: 100;
 		display: inline-block;
 		vertical-align: top;
-		height: 15px;
-		width: 20px;
+		height: 55px;
+		width: 1.9em;
+		margin: 1em;
+		position: fixed;
+				border-radius: .3em;
+				background-color: rgba(255,255,255,.8);
+				text-align: center;
+				padding: 5px;
 	}
 	#hamburger-button > span {
-				z-index: 100;
+		/*z-index: 100;*/
 		display: block;
-		height: 30px;
-		margin-bottom: 3px;
-		width: 20px;
-		border: 1px solid #444444;
-		background-color: #888888;
+		height: .33em;
+		margin: .2em auto;		/*margin-bottom: 3px;*/
+		width: 1.5em;
+		border-radius: .1em;
+		/*border: 1px solid #444444;*/
+		background-color: #aaaaaa;
 	}
 
 }
 
+.about {
+	height: auto;
+}
+.about-p {
+	padding: 2em;
+}
 
 /*Tablet*/
 @media only screen and (min-device-width : 768px) {
