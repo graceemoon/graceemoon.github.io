@@ -569,7 +569,8 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 640px) {
 	body {
 		font-size: 2em;
-		padding: 15px; /*???*/
+		padding: 0; /*???*/
+		margin: 0;
 	}
 
 	nav {
@@ -656,6 +657,9 @@ footer {
 		border-radius: .05em;
 		/*border: 1px solid #444444;*/
 		background-color: #aaaaaa;
+	}
+	.home {
+		padding: 10px;
 	}
 	.beginning {
 	font-size: 30px; 
