@@ -574,6 +574,7 @@ footer {
 	}
 
 	nav {
+		z-index: 198;
 		/*display: block;*/
 	display: none;
 /*	top: 0;
