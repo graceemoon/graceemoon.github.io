@@ -678,6 +678,38 @@ footer {
 	.about-p {
 		padding: 2em;
 	}
+
+.grace-head {
+animation: gracemobile;
+	/*margin-top: -5vh;*/
+	font-weight: 200;
+	opacity: 0;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-delay: 2s;
+	color: #fafafa;
+}
+@keyframes gracemobile{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.moon-head {
+animation: moonmobile;
+	/*margin-top: -5vh;*/
+	font-weight: 200;
+	opacity: 0;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-delay: 2.4s;
+	color: #fafafa;
+}
+@keyframes moonmobile{
+	0% {opacity: 0;}
+	100%{opacity: 1;}
+}
+
 }
 
 
