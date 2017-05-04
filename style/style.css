@@ -111,17 +111,6 @@ nav li:hover {
 	margin: 0;
 	/*animation: rotation 20s linear infinite;*/
 }
-/*@keyframes rotation {
-	0% {transform: rotate(0deg);}
-	100% {transform: rotate(360deg);}
-}*/
-
-/*#hamburger-button {
-	display: none;
-}
-*/
-/*visibility: hidden;*/
-
 
 
 .home-button {
@@ -583,15 +572,65 @@ footer {
 	}
 
 	nav {
+		/*display: block;*/
 		display: none;
+/*			top: 0;
+	margin: 0 auto;
+	padding: 0 auto;*/
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.8);
+	position: fixed;
+	animation: navDown;
+	animation-duration: 1.6s;
+	/*z-index: 1;*/
+	/*box-shadow: 0px 5px 10px rgba(120,120,120,.2);*/
 	}
+	@keyframes navDown {
+		0% {
+			opacity: 0.0;
+			height: 0%;
+		}
+		100% {
+			opacity: 1.0;
+			height: 100%;
+		}
+	}
+
 	nav ul {
-		display: none;
+		z-index: 199;
+	display: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 3em;
+	list-style: none;
+	/*display: block;*/
+	text-align: center;
 	}
 	nav li {
+		z-index: 200;
 		display: none;
-		visibility: hidden;
+		/*visibility: hidden;*/
+		padding: .3em 0; 
+		display: block;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 3em;
+		font-weight: 300;
+		animation: naviMobile;
+		animation-duration: 2s;
 	}
+	@keyframes naviMobile {
+		0% { opacity: 0; }
+		100% { opacity: 100; }
+	}
+
+
+
+
+
+
+
+
 	#hamburger-button {
 		z-index: 100;
 		display: inline-block;

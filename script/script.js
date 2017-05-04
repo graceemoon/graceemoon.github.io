@@ -117,9 +117,17 @@ $('.contact-button').click(function() {
 // 	toLinks();
 // });
 
+//hamburger button clicked-----
+//make nav bar visible-----
+$('#hamburger-button').click(function() {
+	$('nav').css("display", "block");
+	$('.navi').css("display", "block");
+});
 
-
-
-
-
+//when nav's about/projects/contact clicked
+//make animate to that page-----
+// $('.home-button').click(function() {
+// 	$('html, body').animate({
+// 		scrollTop: $('.home').offset().top
+// 	}, 400);
 
