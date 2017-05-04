@@ -692,7 +692,7 @@ footer {
 	padding-top: 10vh;
 	}
 	.beginning span {
-		font-size: 1em;
+		font-size: .8em;
 	}
 	.beginning span:nth-child(3){
 		display: block;
@@ -721,10 +721,10 @@ footer {
 
 
 	.andilike {
-		font-size: 1em;
+		font-size: .7em;
 	}
 	#typewrite {
-		font-size: 1em;
+		font-size: .9em;
 	}
 
 	.about {
