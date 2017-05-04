@@ -696,7 +696,8 @@ footer {
 		height: auto;
 	}
 	.about-p {
-		padding: .5em;
+		font-style: .5em;
+		padding: 10px;
 	}
 
 .grace-head {
