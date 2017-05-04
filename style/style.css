@@ -647,15 +647,16 @@ footer {
 		margin: .15em;
 		position: fixed;
 				border-radius: .3em;
-				background-color: rgba(255,255,255,.5);
+				background-color: rgba(255,255,255,.3);
 				text-align: center;
 				padding: 5px;
 	}
 	#hamburger-button > span {
 		/*z-index: 100;*/
 		display: block;
-		height: .1em;
-		margin: .22em auto;		/*margin-bottom: 3px;*/
+		/*height: .1em;*/
+		height: 2px;
+		margin: .24em auto;		/*margin-bottom: 3px;*/
 		width: 1.3em;
 		border-radius: 100px;
 		/*border: 1px solid #444444;*/
@@ -663,7 +664,7 @@ footer {
 		background-color: #1a1a1a;
 	}
 	#hamburger-button span:first-child {
-		margin-top: .3em;
+		margin-top: .33em;
 	}
 	
 	h2 {
