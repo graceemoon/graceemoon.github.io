@@ -731,7 +731,7 @@ footer {
 	}
 	.about-p {
 		font-style: .5em;
-		padding: 10px;
+		padding-bottom: 30%;
 	}
 
 .grace-head {
@@ -764,9 +764,7 @@ animation: moonmobile;
 	0% {opacity: 0;}
 	100%{opacity: 1;}
 }
-.about-p  {
-	padding-bottom: 30%;
-}
+
 
 }
 
