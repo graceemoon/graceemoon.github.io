@@ -122,7 +122,16 @@ $('.contact-button').click(function() {
 $('#hamburger-button').click(function() {
 	$('nav').css("display", "block");
 	$('.navi').css("display", "block");
-});
+}
+);
+
+// if $('nav').css("display", "block") &&$('#hamburger-button').click(function() {
+// 	$('nav').addClass(".navi2");
+// 	$('.navi').css("display", "none");
+// });
+
+
+
 
 
 //when nav's about/projects/contact clicked

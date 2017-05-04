@@ -205,7 +205,7 @@ nav li:hover {
 
 
 
-.cando {
+.andilike {
 	font-size: 20px; 
 	margin-top: -2vh;
 	display: block;
@@ -625,7 +625,9 @@ footer {
 	}
 
 
-
+	.navi2 {
+		display: none;
+	}
 
 
 
@@ -654,15 +656,31 @@ footer {
 		/*border: 1px solid #444444;*/
 		background-color: #aaaaaa;
 	}
+	.beginning {
+	font-size: 30px; 
+	color: #1a1a1a;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	padding-top: 25vh;
+	}
+	.andilike {
+		font-size: 1em;
+	}
+	#typewrite {
+		font-size: 1em;
+	}
 
+	.about {
+		height: auto;
+	}
+	.about-p {
+		padding: 2em;
+	}
 }
 
-.about {
-	height: auto;
-}
-.about-p {
-	padding: 2em;
-}
+
 
 /*Tablet*/
 @media only screen and (min-device-width : 768px) {
