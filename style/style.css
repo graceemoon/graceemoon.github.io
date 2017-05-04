@@ -658,6 +658,21 @@ footer {
 		/*border: 1px solid #444444;*/
 		background-color: #aaaaaa;
 	}
+	h2 {
+			font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	padding-bottom: 2%;
+	font-size: 2em;
+	letter-spacing: .2em;
+	font-weight: 300;
+	/*-webkit-text-fill-color: transparent;*/
+  	/*-webkit-background-clip: text;*/
+  	/*background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);*/
+  	color: #ffaa33;
+	}
 	.home {
 		padding: 10px;
 	}
@@ -681,7 +696,7 @@ footer {
 		height: auto;
 	}
 	.about-p {
-		padding: 2em;
+		padding: .5em;
 	}
 
 .grace-head {
