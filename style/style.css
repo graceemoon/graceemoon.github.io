@@ -639,8 +639,10 @@ footer {
 		z-index: 100;
 		display: inline-block;
 		vertical-align: top;
-		height: 55px;
-		width: 1.9em;
+		/*height: 50px;*/
+		/*width: 1.9em;*/
+		height: 1.1em;
+		width: 1.5em;
 		margin: .15em;
 		position: fixed;
 				border-radius: .3em;
@@ -651,9 +653,9 @@ footer {
 	#hamburger-button > span {
 		/*z-index: 100;*/
 		display: block;
-		height: .22em;
-		margin: .26em auto;		/*margin-bottom: 3px;*/
-		width: 1.5em;
+		height: .16em;
+		margin: .16em auto;		/*margin-bottom: 3px;*/
+		width: 1.3em;
 		border-radius: .05em;
 		/*border: 1px solid #444444;*/
 		background-color: #aaaaaa;
