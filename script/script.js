@@ -124,6 +124,7 @@ $('#hamburger-button').click(function() {
 	$('.navi').css("display", "block");
 });
 
+
 //when nav's about/projects/contact clicked
 //make animate to that page-----
 // $('.home-button').click(function() {
