@@ -327,17 +327,17 @@ h2 {
 	width: 100%;
 	height: 90vh;
 	background-color: #FEFEFE;
-	animation: aboutFade;
-	animation-duration: 2s;
+/*	animation: aboutFade;
+	animation-duration: 2s;*/
 }
-@keyframes aboutFade {
+/*@keyframes aboutFade {
 	0% {
 		opacity: 0.0;
 	}
 	100% {
 		opacity: 1.0;
 	}
-}
+}*/
 
 .about-p {
 	padding: 2% 15% 5% 15%;
@@ -679,7 +679,7 @@ footer {
 	font-size: 30px; 
 	color: #1a1a1a;
 	margin: 0;
-	padding: 5px;
+	padding: 0px;
 	display: block;
 	text-align: center;
 	padding-top: 10vh;
