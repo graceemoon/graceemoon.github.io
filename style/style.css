@@ -653,8 +653,8 @@ footer {
 	#hamburger-button > span {
 		/*z-index: 100;*/
 		display: block;
-		height: .22em;
-		margin: .16em auto;		/*margin-bottom: 3px;*/
+		height: .15em;
+		margin: .22em auto;		/*margin-bottom: 3px;*/
 		width: 1.3em;
 		border-radius: .15em;
 		/*border: 1px solid #444444;*/
