@@ -752,7 +752,7 @@ animation: gracemobile;
 }
 .moon-head {
 animation: moonmobile;
-	/*margin-top: -5vh;*/
+	margin-top: -5vh;
 	font-weight: 200;
 	opacity: 0;
     animation-duration: .5s;
