@@ -584,7 +584,7 @@ footer {
 	background-color: rgba(255,255,255,.8);
 	position: fixed;
 	animation: navDown;
-	animation-duration: 1.6s;
+	animation-duration: 1s;
 	/*z-index: 1;*/
 	/*box-shadow: 0px 5px 10px rgba(120,120,120,.2);*/
 	}
