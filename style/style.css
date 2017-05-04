@@ -581,7 +581,7 @@ footer {
 	padding: 0 auto;*/
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255,255,255,.8);
+	background-color: rgba(255,255,255,.95);
 	position: fixed;
 	animation: navDown;
 	animation-duration: 1s;
