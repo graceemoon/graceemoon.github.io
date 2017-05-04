@@ -654,13 +654,18 @@ footer {
 	#hamburger-button > span {
 		/*z-index: 100;*/
 		display: block;
-		height: .15em;
+		height: .1em;
 		margin: .22em auto;		/*margin-bottom: 3px;*/
 		width: 1.3em;
-		border-radius: .15em;
+		border-radius: 100px;
 		/*border: 1px solid #444444;*/
-		background-color: #dadada;
+		/*background-color: #dadada;*/
+		background-color: #1a1a1a;
 	}
+	#hamburger-button span:first-child {
+		margin-top: .3em;
+	}
+	
 	h2 {
 			font-family: 'Open Sans', sans-serif;
 	text-align: center;
