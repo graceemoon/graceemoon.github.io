@@ -365,18 +365,18 @@ h2 {
 	/*padding-top: 0px;*/
 	padding-bottom: 100px;
 	background-color: #FAFAFA;
-	margin: auto;
 }
 
 .project-list {
 	display: flex;
-	justify-content: flex-start;
-
+	/*width: auto;*/
+	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style-type: none;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	padding: 40px;
+	margin: 0 auto;
 } 
 .proj {
 	display: flex;
@@ -392,8 +392,12 @@ h2 {
 	letter-spacing: 1px;
 	line-height: 20px;
 	margin: 0 50px 50px 50px;
-	margin-left: 6%;
 }
+.proj > img {
+	width: 80%;
+	height: 80%;
+}
+
 .proj-p b {
 	font-size: 20px;
 }
