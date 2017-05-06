@@ -128,31 +128,11 @@ $('.contact-button').click(function() {
 $('#hamburger-button').click(() => {
 	console.log('clicked');
 	$('nav').toggleClass('navToggle');
-	$('.navi').toggleClass('navToggle');
-
-	if ($('nav').hasClass('navToggle')) {
-		console.log('if');
-		$('nav').css("display", "block");
-		$('.navi').css("display", "block");
-	} else {
-		console.log('else');
-		$('nav').removeClass('navToggle');
-		$('.navi').removeClass('navToggle');
-		$('nav').css("display", "none");
-		$('.navi').css("display", "none");	
-	}
-
 });
 
 $('.navi').click(() => {
 	console.log('button clicked?')
-
-	$('nav').toggleClass('navToggle');
-	$('.navi').toggleClass('navToggle');
-			$('nav').css("display", "none");
-		$('.navi').css("display", "none");	
-
-	// $('nav').toggleClass('navToggle');
+	$('nav').removeClass('navToggle');
 });
 
 

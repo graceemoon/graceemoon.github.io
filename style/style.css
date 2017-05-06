@@ -610,7 +610,8 @@ footer {
 
 	nav ul {
 		z-index: 98;
-		display: none;
+		/*display: none;*/
+		display: block;
 		margin: 0;
 		padding: 0;
 		padding-top: 3em;
@@ -620,7 +621,7 @@ footer {
 	}
 	nav li {
 		z-index: 99;
-		display: none;
+		display: block;
 		/*visibility: hidden;*/
 		padding: .3em 0; 
 		display: block;
