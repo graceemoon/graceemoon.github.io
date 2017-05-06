@@ -715,8 +715,11 @@ footer {
 		height: auto;
 	}
 	.about-p {
-		font-style: .5em;
+		font-size: .8em;
 		padding-bottom: 30%;
+		text-align: justify;
+	    text-justify: inter-word;
+	    hyphens: auto;
 	}
 
 	.grace-head {
