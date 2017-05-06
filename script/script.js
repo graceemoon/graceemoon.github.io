@@ -119,18 +119,41 @@ $('.contact-button').click(function() {
 
 //hamburger button clicked-----
 //make nav bar visible-----
-$('#hamburger-button').click(function() {
-	$('nav').css("display", "block");
-	$('.navi').css("display", "block");
-}
-);
+// $('#hamburger-button').click(function() {
+// 	$('nav').css("display", "block");
+// 	$('.navi').css("display", "block");
+// }
+// );
 
-// if $('nav').css("display", "block") &&$('#hamburger-button').click(function() {
-// 	$('nav').addClass(".navi2");
-// 	$('.navi').css("display", "none");
-// });
+$('#hamburger-button').click(() => {
+	console.log('clicked');
+	$('nav').toggleClass('navToggle');
+	$('.navi').toggleClass('navToggle');
 
+	if ($('nav').hasClass('navToggle')) {
+		console.log('if');
+		$('nav').css("display", "block");
+		$('.navi').css("display", "block");
+	} else {
+		console.log('else');
+		$('nav').removeClass('navToggle');
+		$('.navi').removeClass('navToggle');
+		$('nav').css("display", "none");
+		$('.navi').css("display", "none");	
+	}
 
+});
+
+$('.navi').click(() => {
+	console.log('button clicked?')
+
+	$('nav').toggleClass('navToggle');
+	$('.navi').toggleClass('navToggle');
+			$('nav').css("display", "none");
+		$('.navi').css("display", "none");	
+
+	// $('nav').toggleClass('navToggle');
+});
 
 
 

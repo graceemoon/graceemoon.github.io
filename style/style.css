@@ -636,8 +636,8 @@ footer {
 	}
 
 
-	.navi2 {
-		display: none;
+	.navToggle {
+		display: block/* !important*/;
 	}
 
 
@@ -658,7 +658,7 @@ footer {
 	}
 	#hamburger-button > span {
 		/*z-index: 100;*/
-		display: block;
+		display: block ;
 		/*height: .1em;*/
 		height: 2px;
 		margin: .24em auto;		/*margin-bottom: 3px;*/
