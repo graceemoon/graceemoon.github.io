@@ -392,12 +392,8 @@ h2 {
 	letter-spacing: 1px;
 	line-height: 20px;
 	margin: 0 50px 50px 50px;
-}
-.proj > img {
-	width: 80%;
-	height: 80%;
-}
 
+}
 .proj-p b {
 	font-size: 20px;
 }
@@ -756,6 +752,17 @@ footer {
 		0% {opacity: 0;}
 		100%{opacity: 1;}
 	}
+
+	.proj {
+		width: 200px;
+		height: 200px;
+	} 
+	.proj img {
+		width: 200px;
+		height: 200px;	
+	}
+
+
 	footer {
 		font-size: 10px;
 	}
