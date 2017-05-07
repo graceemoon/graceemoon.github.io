@@ -654,7 +654,7 @@ footer {
 		font-size: .8em;
 		padding-bottom: 30%;
 		text-align: justify;
-	    text-justify: inter-word;
+	    /*text-justify: inter-word;*/
 	    hyphens: auto;
 	}
 	.proj {
