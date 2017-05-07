@@ -318,7 +318,7 @@ h2 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style-type: none;
-	padding: 40px;
+	/*padding: 40px;*/
 	margin: 0 auto;
 } 
 .proj {
