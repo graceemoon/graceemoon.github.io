@@ -654,7 +654,7 @@ footer {
 		font-size: .7em;
 		padding: 1.5em;
 		padding-bottom: 30%;
-		text-align: justify;
+		text-align: left;
 	    text-justify: inter-word;
 	    hyphens: auto;
 	}
