@@ -72,11 +72,8 @@ nav {
 		opacity: 0.0;
 		height: 0px;
 	}
-/*	50% {
-		opacity: 0.0;
-		height: 0px;
-	}
-*/	100% {
+
+	100% {
 		opacity: 1.0;
 		height: 50px;
 	}
@@ -104,12 +101,10 @@ nav li {
 nav li:hover {
 	color: #ffaa33;
 }
-/*.navi {
-}*/
+
 .toplogo {
 	padding:0;
 	margin: 0;
-	/*animation: rotation 20s linear infinite;*/
 }
 
 
@@ -163,16 +158,8 @@ nav li:hover {
 	display: block;
 	text-align: center;
 	padding-top: 30vh;
-/*	opacity: 0;*/
-/*	animation: mynameis .5s;
-	animation-fill-mode: forwards;
-	animation-delay: 1.5s;*/
 }
-/*@keyframes mynameis {
-	0% {opacity: 0;}
-	100% {opacity: 1;
-		color: #2a2a2a;}
-}*/
+
 .beginning span:first-child {
 	opacity: 0;
 	animation: hellospan .5s;
@@ -190,7 +177,6 @@ nav li:hover {
 	100% {opacity: 1;}
 }
 .beginning span:nth-child(3) {
-	/*position: relative;*/
 	opacity: 0;
 	animation: mynameisspan .8s;
 	animation-fill-mode: forwards;
@@ -200,10 +186,6 @@ nav li:hover {
 	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
-
-
-
-
 
 .andilike {
 	font-size: 20px; 
@@ -234,39 +216,25 @@ h2 {
 	font-size: 3em;
 	letter-spacing: .2em;
 	font-weight: 300;
-	/*-webkit-text-fill-color: transparent;*/
-  	/*-webkit-background-clip: text;*/
-  	/*background: linear-gradient(126deg, #ff1b55, #ffc202, #ff6700);*/
   	color: #ffaa33;
 }
-/*h2:before,:after {
-	box-sizing: border-box;
-}*/
 
 /*HOME*/
 .home {
 	width: 100vw;
 	height: 100vh;
-/*	background-color: #101010;
-	background-image: url("../img/desk-interior-arrangement-13.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-*/}
+}
 
 /*NAME HEADER*/
 .header {
 	display: block;
 	font-family: 'Quicksand', sans-serif;
-/*	font-size: 30vh;*/
 	font-size: 15vh;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 .grace-head {
-	/*margin-top: 30vh;*/
 	margin-top: -5vh;
 	font-weight: 200;
 	opacity: 0;
@@ -285,25 +253,22 @@ h2 {
 	}
     50%{
         color: rgba(255,255,255,0.0);
-        /*margin-right: -200px;*/
     }
     100%{opacity: 1;
-        color: #fafafa; /*this will be the "black" color????*/
+        color: #fafafa;
         margin-left: 0px;
     }
 }
 .moon-head {
 	font-weight: 400;
 	margin-top: -3%;
-	/*animation: flip;*/
 	opacity: 0;
 	animation: totheleft;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 	animation-delay: 1.4s;
-        color: #fafafa;
-	/*text-shadow: 5px 5px #101010;*/
+    color: #fafafa;
 }
 
 @keyframes totheleft {
@@ -313,7 +278,6 @@ h2 {
 	}
     70%{
         color: rgba(255,255,255,0.0);
-        /*margin-right: -200px;*/
     }
     100%{opacity: 1;
         color: #fafafa;
@@ -327,62 +291,38 @@ h2 {
 	width: 100%;
 	height: 90vh;
 	background-color: #FEFEFE;
-/*	animation: aboutFade;
-	animation-duration: 2s;*/
 }
-/*@keyframes aboutFade {
-	0% {
-		opacity: 0.0;
-	}
-	100% {
-		opacity: 1.0;
-	}
-}*/
+
 
 .about-p {
 	padding: 2% 15% 5% 15%;
-	/*padding-top: 2%;*/
 	margin: 0;
 }
 
 /*img b/w about and proj*/
 .afterabout {
-/*    background-image: url("../img/geo.jpg");*/
-    /* Set a specific height */
     min-height: 10vh;
-    /* Create the parallax scrolling effect */
-/*    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 
 /*PROJECTS*/
 .projects {
 	width: 100%;
-	/*height: 90vh;*/
-	/*padding-top: 0px;*/
 	padding-bottom: 100px;
 	background-color: #FAFAFA;
 }
 
 .project-list {
 	display: flex;
-	/*width: auto;*/
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style-type: none;
-	/*margin: 0 auto;*/
 	padding: 40px;
 	margin: 0 auto;
 } 
 .proj {
 	display: flex;
-	/*justify-content: space-around;*/
-	/*margin: 10px;*/
-	/*padding: 10px;*/
 	position: relative;
 	border: 1px solid #ccc;
 	width: 300px;
@@ -433,21 +373,6 @@ h2 {
 .proj-a:hover span {
   display: block;
 }
-
-
-/*img zooms in when hovered*/
-/*doesnt work with span on top width + height 100% boo*/
-/*.proj img {
-	transition: all 1s ease;
-}
-
-.proj img:hover {
-	transform: scale(1.1);
-}
-*/
-
-
-
 
 /*to show strip of gradient*/
 .afterprojects {
@@ -572,30 +497,23 @@ footer {
 }
 
 
-/* Smartphones (portrait and landscape) */
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {*/
 @media only screen and (min-width: 320px) and (max-width: 640px) {
 	body {
 		font-size: 2em;
-		padding: 0; /*???*/
+		padding: 0;
 		margin: 0;
 	}
 
 	nav {
 		z-index: 98;
-		/*display: block;*/
 		display: none;
-	/*	top: 0;
-		margin: 0 auto;
-		padding: 0 auto;*/
 		height: 100%;
 		width: 100%;
 		background-color: rgba(255,255,255,.95);
 		position: fixed;
 		animation: navDown;
 		animation-duration: .5s;
-		/*z-index: 1;*/
-		/*box-shadow: 0px 5px 10px rgba(120,120,120,.2);*/
 	}
 	@keyframes navDown {
 		0% {
@@ -610,19 +528,16 @@ footer {
 
 	nav ul {
 		z-index: 98;
-		/*display: none;*/
 		display: block;
 		margin: 0;
 		padding: 0;
 		padding-top: 3em;
 		list-style: none;
-		/*display: block;*/
 		text-align: center;
 	}
 	nav li {
 		z-index: 99;
 		display: block;
-		/*visibility: hidden;*/
 		padding: .3em 0; 
 		display: block;
 		font-family: 'Quicksand', sans-serif;
@@ -646,8 +561,6 @@ footer {
 		z-index: 100;
 		display: inline-block;
 		vertical-align: top;
-		/*height: 50px;*/
-		/*width: 1.9em;*/
 		height: 1.3em;
 		width: 1.5em;
 		margin: .15em;
@@ -658,15 +571,11 @@ footer {
 		padding: 5px;
 	}
 	#hamburger-button > span {
-		/*z-index: 100;*/
 		display: block ;
-		/*height: .1em;*/
 		height: 2px;
-		margin: .24em auto;		/*margin-bottom: 3px;*/
+		margin: .24em auto;		
 		width: 1.3em;
 		border-radius: 100px;
-		/*border: 1px solid #444444;*/
-		/*background-color: #dadada;*/
 		background-color: #1a1a1a;
 	}
 	#hamburger-button span:first-child {
@@ -710,21 +619,8 @@ footer {
 	#typewrite {
 		font-size: .9em;
 	}
-
-	.about {
-		height: auto;
-	}
-	.about-p {
-		font-size: .8em;
-		padding-bottom: 30%;
-		text-align: justify;
-	    text-justify: inter-word;
-	    hyphens: auto;
-	}
-
 	.grace-head {
 		animation: gracemobile;
-		/*margin-top: -5vh;*/
 		font-weight: 200;
 		opacity: 0;
 	    animation-duration: .5s;
@@ -752,7 +648,16 @@ footer {
 		0% {opacity: 0;}
 		100%{opacity: 1;}
 	}
-
+	.about {
+		height: auto;
+	}
+	.about-p {
+		font-size: .8em;
+		padding-bottom: 30%;
+		text-align: justify;
+	    text-justify: inter-word;
+	    hyphens: auto;
+	}
 	.proj {
 		width: 200px;
 		height: 200px;
@@ -775,12 +680,8 @@ footer {
 
 
 /*Tablet*/
-@media only screen and (min-device-width : 768px) {
-nav {}
-
-
-
-}
+/*@media only screen and (min-device-width : 768px) {
+}*/
 
 
 
