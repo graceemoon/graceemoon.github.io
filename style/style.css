@@ -331,10 +331,13 @@ h2 {
 	letter-spacing: 1px;
 	line-height: 20px;
 	margin: 0 50px 50px 50px;
-
+	text-align: center;
 }
+
 .proj-p b {
 	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
 }
 
 .proj-a {
@@ -342,16 +345,16 @@ h2 {
 }
 
 .proj-a span {
-  display: none;
-  position: absolute;
-  /*bottom: 0;*/
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  padding-right: 50px;
-  background: rgba(0,0,0,.8);
-  color: white;
+	display: none;
+	position: absolute;
+	/*bottom: 0;*/
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 80px;
+	/*padding-right: 50px;*/
+	background: rgba(0,0,0,.8);
+	color: white;
   	animation-name: getsmall;
 	animation-duration: .4s;
 }
@@ -364,7 +367,7 @@ h2 {
 	}
 	100%{
 		opacity: 1;
-		padding-left: 20px;
+		padding-left: 0px;
 		background: rgba(0,0,0,.8);
 	}
 }
